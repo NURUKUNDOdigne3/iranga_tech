@@ -347,41 +347,6 @@ h6,
 }
 
 
-/*** Testimonial ***/
-.newsletter,
-.testimonial {
-    background:
-        url(../img/bg-top.png),
-        url(../img/bg-bottom.png);
-    background-position:
-        left top,
-        right bottom;
-    background-repeat: no-repeat;
-}
-
-.testimonial-carousel .owl-item .testimonial-item,
-.testimonial-carousel .owl-item.center .testimonial-item * {
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--light) !important;
-    border-color: var(--light);
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item * {
-    color: #888888;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item i {
-    color: var(--primary) !important;
-}
-
-.testimonial-carousel .owl-item.center .testimonial-item h6 {
-    color: var(--dark) !important;
-}
-
-
 /*** Team ***/
 .team-item {
     position: relative;
